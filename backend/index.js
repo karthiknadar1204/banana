@@ -50,4 +50,35 @@ app.get('/create-story', async (req, res) => {
   });
 
 
+  app.get('/build-video',(req,res)=>{
+    const id='sktwi1pa0lzplywjc';
+    // const id = req.query.id;
+    if (!id) {
+      res.json('error. missing id');
+    }
+    const dir = './stories/'+id;
+    if (!fs.existsSync(dir+'/1.png')) {
+      fs.renameSync(dir+'/b-roll-1.png', dir+'/1.png');
+      fs.renameSync(dir+'/b-roll-2.png', dir+'/2.png');
+      fs.renameSync(dir+'/b-roll-3.png', dir+'/3.png');
+      fs.renameSync(dir+'/voiceover-1.mp3', dir+'/1.mp3');
+      fs.renameSync(dir+'/voiceover-2.mp3', dir+'/2.mp3');
+      fs.renameSync(dir+'/voiceover-3.mp3', dir+'/3.mp3');
+      fs.renameSync(dir+'/voiceover-1.txt', dir+'/transcription-1.json');
+      fs.renameSync(dir+'/voiceover-2.txt', dir+'/transcription-2.json');
+      fs.renameSync(dir+'/voiceover-3.txt', dir+'/transcription-3.json');
+    }
+    return res.json('ok');
+
+    // const images = ['1.png', '2.png', '3.png'];
+    // const audio = ['1.mp3', '2.mp3', '3.mp3'];
+    // const transcriptions = [
+    //   'transcription-1.json',
+    //   'transcription-2.json',
+    //   'transcription-3.json'
+    // ];
+
+  })
+
+
 app.listen(8080, () => console.log('Listening on port 8080'));

@@ -1,0 +1,58 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 4.579999923706055,
+  "text": "Treasury yields remained stable as investors awaited key inflation data.",
+  "words": [
+    {
+      "word": "Treasury",
+      "start": 0.0,
+      "end": 0.46000000834465027
+    },
+    {
+      "word": "yields",
+      "start": 0.46000000834465027,
+      "end": 0.7599999904632568
+    },
+    {
+      "word": "remained",
+      "start": 0.7599999904632568,
+      "end": 1.159999966621399
+    },
+    {
+      "word": "stable",
+      "start": 1.159999966621399,
+      "end": 1.600000023841858
+    },
+    {
+      "word": "as",
+      "start": 1.600000023841858,
+      "end": 2.059999942779541
+    },
+    {
+      "word": "investors",
+      "start": 2.059999942779541,
+      "end": 2.5
+    },
+    {
+      "word": "awaited",
+      "start": 2.5,
+      "end": 3.0799999237060547
+    },
+    {
+      "word": "key",
+      "start": 3.0799999237060547,
+      "end": 3.180000066757202
+    },
+    {
+      "word": "inflation",
+      "start": 3.180000066757202,
+      "end": 3.619999885559082
+    },
+    {
+      "word": "data",
+      "start": 3.619999885559082,
+      "end": 4.019999980926514
+    }
+  ]
+}

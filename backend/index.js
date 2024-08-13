@@ -53,7 +53,7 @@ app.get("/create-story", async (req, res) => {
 });
 
 app.get("/build-video", async (req, res) => {
-    const id = "sktwi1pa0lzplywjc"; // Use provided ID or default
+  const id = "sktwi1ecrlzs778i9"; // Use provided ID or default
   // const id = req.query.id;
   if (!id) {
     return res.json("error. missing id");
@@ -141,6 +141,15 @@ app.get("/build-video", async (req, res) => {
 
   console.log("done");
   return res.json(`${id}/final.mp4`);
+});
+
+app.get("/samples", (req, res) => {
+  const stories = fs.readdirSync("./stories").filter((dir) => {
+    return (
+      dir.match(/^[a-z0-9]{6,}$/) && fs.existsSync(`./stories/${dir}/final.mp4`)
+    );
+  });
+  res.json(stories);
 });
 
 app.listen(8080, () => console.log("Listening on port 8080"));

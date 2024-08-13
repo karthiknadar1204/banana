@@ -1,0 +1,188 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 16.68000030517578,
+  "text": "Ukraine's recent incursion into Russian territory aims to gain negotiating power and leverage for future peace talks. The surprise operation involving thousands of Ukrainian troops has exposed weaknesses in Russia's military command and humiliated its leadership.",
+  "words": [
+    {
+      "word": "Ukraine's",
+      "start": 0.0,
+      "end": 0.5600000023841858
+    },
+    {
+      "word": "recent",
+      "start": 0.5600000023841858,
+      "end": 0.9399999976158142
+    },
+    {
+      "word": "incursion",
+      "start": 0.9399999976158142,
+      "end": 1.3600000143051147
+    },
+    {
+      "word": "into",
+      "start": 1.3600000143051147,
+      "end": 1.6200000047683716
+    },
+    {
+      "word": "Russian",
+      "start": 1.6200000047683716,
+      "end": 2.0
+    },
+    {
+      "word": "territory",
+      "start": 2.0,
+      "end": 2.619999885559082
+    },
+    {
+      "word": "aims",
+      "start": 2.619999885559082,
+      "end": 3.299999952316284
+    },
+    {
+      "word": "to",
+      "start": 3.299999952316284,
+      "end": 3.7200000286102295
+    },
+    {
+      "word": "gain",
+      "start": 3.7200000286102295,
+      "end": 3.9800000190734863
+    },
+    {
+      "word": "negotiating",
+      "start": 3.9800000190734863,
+      "end": 4.659999847412109
+    },
+    {
+      "word": "power",
+      "start": 4.659999847412109,
+      "end": 5.159999847412109
+    },
+    {
+      "word": "and",
+      "start": 5.159999847412109,
+      "end": 5.679999828338623
+    },
+    {
+      "word": "leverage",
+      "start": 5.679999828338623,
+      "end": 6.019999980926514
+    },
+    {
+      "word": "for",
+      "start": 6.019999980926514,
+      "end": 6.300000190734863
+    },
+    {
+      "word": "future",
+      "start": 6.300000190734863,
+      "end": 6.599999904632568
+    },
+    {
+      "word": "peace",
+      "start": 6.599999904632568,
+      "end": 6.940000057220459
+    },
+    {
+      "word": "talks",
+      "start": 6.940000057220459,
+      "end": 7.360000133514404
+    },
+    {
+      "word": "The",
+      "start": 7.860000133514404,
+      "end": 7.900000095367432
+    },
+    {
+      "word": "surprise",
+      "start": 7.900000095367432,
+      "end": 8.479999542236328
+    },
+    {
+      "word": "operation",
+      "start": 8.479999542236328,
+      "end": 9.079999923706055
+    },
+    {
+      "word": "involving",
+      "start": 9.079999923706055,
+      "end": 9.619999885559082
+    },
+    {
+      "word": "thousands",
+      "start": 9.619999885559082,
+      "end": 10.119999885559082
+    },
+    {
+      "word": "of",
+      "start": 10.119999885559082,
+      "end": 10.84000015258789
+    },
+    {
+      "word": "Ukrainian",
+      "start": 10.84000015258789,
+      "end": 10.859999656677246
+    },
+    {
+      "word": "troops",
+      "start": 10.859999656677246,
+      "end": 11.300000190734863
+    },
+    {
+      "word": "has",
+      "start": 11.300000190734863,
+      "end": 11.920000076293945
+    },
+    {
+      "word": "exposed",
+      "start": 11.920000076293945,
+      "end": 12.319999694824219
+    },
+    {
+      "word": "weaknesses",
+      "start": 12.319999694824219,
+      "end": 12.800000190734863
+    },
+    {
+      "word": "in",
+      "start": 12.800000190734863,
+      "end": 13.199999809265137
+    },
+    {
+      "word": "Russia's",
+      "start": 13.199999809265137,
+      "end": 13.680000305175781
+    },
+    {
+      "word": "military",
+      "start": 13.680000305175781,
+      "end": 14.020000457763672
+    },
+    {
+      "word": "command",
+      "start": 14.020000457763672,
+      "end": 14.479999542236328
+    },
+    {
+      "word": "and",
+      "start": 14.479999542236328,
+      "end": 15.119999885559082
+    },
+    {
+      "word": "humiliated",
+      "start": 15.119999885559082,
+      "end": 15.699999809265137
+    },
+    {
+      "word": "its",
+      "start": 15.699999809265137,
+      "end": 15.960000038146973
+    },
+    {
+      "word": "leadership",
+      "start": 15.960000038146973,
+      "end": 16.260000228881836
+    }
+  ]
+}

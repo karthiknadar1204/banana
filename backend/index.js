@@ -53,8 +53,8 @@ app.get("/create-story", async (req, res) => {
 });
 
 app.get("/build-video", async (req, res) => {
-  //   const id = "sktwi1pa0lzplywjc"; // Use provided ID or default
-  const id = req.query.id;
+    const id = "sktwi1pa0lzplywjc"; // Use provided ID or default
+  // const id = req.query.id;
   if (!id) {
     return res.json("error. missing id");
   }
